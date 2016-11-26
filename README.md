@@ -48,4 +48,4 @@ Next steps should be :
 
 1) Understanding how to export different kind of objects through SWIG
 
-2) Try and automate the creation of the interface file
+2) Try and automate the creation of the interface file and setup.py
