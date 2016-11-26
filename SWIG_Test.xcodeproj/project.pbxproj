@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A397A501DE133F7003DE178 /* SWIG_Test in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A5D0F5C1DDFEC3D0016BD21 /* SWIG_Test */; };
 		6A5D0F601DDFEC3D0016BD21 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D0F5F1DDFEC3D0016BD21 /* main.cpp */; };
 		6A5D0F691DDFED420016BD21 /* fact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D0F671DDFED420016BD21 /* fact.cpp */; };
 /* End PBXBuildFile section */
@@ -14,16 +15,18 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		6A5D0F5A1DDFEC3D0016BD21 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 12;
+			dstPath = "/Users/constantinslioussarenko/Documents/C++ Code/SWIG_Test/build";
 			dstSubfolderSpec = 0;
 			files = (
+				6A397A501DE133F7003DE178 /* SWIG_Test in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A397A511DE139C7003DE178 /* fact.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = fact.i; sourceTree = "<group>"; };
 		6A5D0F5C1DDFEC3D0016BD21 /* SWIG_Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SWIG_Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5D0F5F1DDFEC3D0016BD21 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6A5D0F671DDFED420016BD21 /* fact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fact.cpp; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 				6A5D0F5F1DDFEC3D0016BD21 /* main.cpp */,
 				6A5D0F671DDFED420016BD21 /* fact.cpp */,
 				6A5D0F681DDFED420016BD21 /* fact.hpp */,
+				6A397A511DE139C7003DE178 /* fact.i */,
 			);
 			path = SWIG_Test;
 			sourceTree = "<group>";
@@ -252,6 +256,7 @@
 				6A5D0F651DDFEC3D0016BD21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
