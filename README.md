@@ -36,9 +36,9 @@ Python 3.5.1 |Anaconda 4.0.0 (x86_64)| (default, Dec  7 2015, 11:24:55)
 
 Type "help", "copyright", "credits" or "license" for more information.
 
->>> import fact
+\>>> import fact
 
->>> fact.fact(5)
+\>>> fact.fact(5)
 
 120
 
