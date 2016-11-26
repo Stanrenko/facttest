@@ -15,6 +15,7 @@ fac.cpp
 fac.i
 
 3) Wrote the setup.py file which allows to build the module
+
 setup.py
 
 4) Ran the below command lines 
@@ -44,5 +45,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 Useful thread : http://stackoverflow.com/questions/33868056/swig-wrapping-c-to-python-is-using-default-python-rather-than-anaconda-python/33914982
 
 Next steps should be :
+
 1) Understanding how to export different kind of objects through SWIG
+
 2) Try and automate the creation of the interface file
